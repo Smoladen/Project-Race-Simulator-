@@ -14,7 +14,7 @@
 int main()
 {
     while(true){
-    double distance = 0;
+
         vehicle vehicle;
         GroundVehicle GroundVehicle;
         cammel cammel;
@@ -33,7 +33,7 @@ int main()
         // std::cout << "EAGLE " <<eagle.calculateTime(distance) << std::endl;
         // std::cout << "FLYING CARPET " <<flying_carpet.calculateTime(distance) << std::endl;
         // std::cout << "BROOM " <<broom.calculateTime(distance) << std::endl;
-
+    double distance = 0;
     int RaceType = 0;
     int NumOfRegVehicle = 1;
     int decision = 0;
