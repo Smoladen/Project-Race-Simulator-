@@ -1,8 +1,6 @@
-#ifndef VEHICLE_H
-#include "vehicle.h"
-#endif
 #ifndef AIR_VEHICLE_H
 #define AIR_VEHICLE_H
+#include "vehicle.h"
 class AirVehicle : public vehicle{
 protected:
     double Coefficient = 0;

@@ -1,8 +1,6 @@
-#ifndef VEHICLE_H
-#include "vehicle.h"
-#endif
 #ifndef GROUND_VEHICLE_H
 #define GROUND_VEHICLE_H
+#include "vehicle.h"
 class GroundVehicle : public vehicle{
 protected:
     double timeBeforeRest;
